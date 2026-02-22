@@ -156,5 +156,15 @@
     "changes": "我们可能会不定期更新本隐私政策。任何变更都将在本页面上体现，并附有更新后的\"最后更新\"日期。",
     "contactTitle": "9. 联系我们",
     "contactIntro": "如果您对本隐私政策有任何疑问，请通过以下方式联系我们："
+  },
+  "comingSoon": {
+    "title": "即将上线",
+    "subtitle": "第一时间了解 Skip Or Buy 的发布动态。留下您的信息，我们会及时通知您。",
+    "namePlaceholder": "您的姓名",
+    "emailPlaceholder": "您的邮箱",
+    "submit": "通知我",
+    "success": "您已加入名单！",
+    "successDesc": "我们会在上线时第一时间通知您。",
+    "dismiss": "关闭"
   }
 }

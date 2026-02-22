@@ -156,5 +156,15 @@
     "changes": "我們可能會不時更新本私隱政策。任何變更將反映在本頁面，並附上最新的「最後更新」日期。",
     "contactTitle": "9. 聯絡我們",
     "contactIntro": "如你對本私隱政策有任何疑問，歡迎透過以下方式聯絡我們："
+  },
+  "comingSoon": {
+    "title": "即將推出",
+    "subtitle": "搶先了解 Skip Or Buy 的推出消息。留下你的資料，我們會及時通知你。",
+    "namePlaceholder": "你的姓名",
+    "emailPlaceholder": "你的電郵",
+    "submit": "通知我",
+    "success": "你已加入名單！",
+    "successDesc": "我們會在推出時通知你。",
+    "dismiss": "關閉"
   }
 }

@@ -156,5 +156,15 @@
     "changes": "Podemos actualizar esta política de privacidad de vez en cuando. Cualquier cambio se reflejará en esta página con una fecha de «Última actualización» renovada.",
     "contactTitle": "9. Contacto",
     "contactIntro": "Si tienes alguna pregunta sobre esta política de privacidad, contáctanos en:"
+  },
+  "comingSoon": {
+    "title": "Próximamente",
+    "subtitle": "Sé el primero en saber cuándo se lanza Skip Or Buy. Déjanos tus datos y te mantendremos informado.",
+    "namePlaceholder": "Tu nombre",
+    "emailPlaceholder": "Tu correo electrónico",
+    "submit": "Notifícame",
+    "success": "¡Estás en la lista!",
+    "successDesc": "Te avisaremos en cuanto lancemos.",
+    "dismiss": "Cerrar"
   }
 }

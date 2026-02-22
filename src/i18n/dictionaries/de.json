@@ -156,5 +156,15 @@
     "changes": "Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Alle Änderungen werden auf dieser Seite mit einem aktualisierten Datum unter \"Zuletzt aktualisiert\" angezeigt.",
     "contactTitle": "9. Kontakt",
     "contactIntro": "Wenn du Fragen zu dieser Datenschutzrichtlinie hast, kontaktiere uns bitte unter:"
+  },
+  "comingSoon": {
+    "title": "Demnächst verfügbar",
+    "subtitle": "Erfahre als Erster, wann Skip Or Buy startet. Hinterlasse deine Daten und wir halten dich auf dem Laufenden.",
+    "namePlaceholder": "Dein Name",
+    "emailPlaceholder": "Deine E-Mail",
+    "submit": "Benachrichtige mich",
+    "success": "Du bist auf der Liste!",
+    "successDesc": "Wir informieren dich, sobald wir starten.",
+    "dismiss": "Schließen"
   }
 }

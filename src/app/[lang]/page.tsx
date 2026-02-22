@@ -10,6 +10,7 @@ import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 import CookieBanner from "@/components/CookieBanner";
+import ComingSoon from "@/components/ComingSoon";
 
 export default async function Home({
   params,
@@ -34,6 +35,7 @@ export default async function Home({
       </main>
       <Footer lang={lang} dict={dict} />
       <CookieBanner lang={lang} dict={dict} />
+      <ComingSoon dict={dict} />
     </>
   );
 }

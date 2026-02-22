@@ -156,5 +156,15 @@
     "changes": "Potremmo aggiornare questa informativa sulla privacy di tanto in tanto. Eventuali modifiche saranno riportate su questa pagina con una data di \"Ultimo aggiornamento\" aggiornata.",
     "contactTitle": "9. Contattaci",
     "contactIntro": "Per qualsiasi domanda su questa informativa sulla privacy, contattaci all'indirizzo:"
+  },
+  "comingSoon": {
+    "title": "In arrivo",
+    "subtitle": "Sii il primo a sapere quando Skip Or Buy sarà disponibile. Lascia i tuoi dati e ti terremo aggiornato.",
+    "namePlaceholder": "Il tuo nome",
+    "emailPlaceholder": "La tua email",
+    "submit": "Avvisami",
+    "success": "Sei nella lista!",
+    "successDesc": "Ti avviseremo non appena saremo online.",
+    "dismiss": "Chiudi"
   }
 }
