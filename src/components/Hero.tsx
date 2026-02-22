@@ -1,12 +1,15 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import FadeIn from "./FadeIn";
-import PhoneMockup from "./PhoneMockup";
 import StoreBadges from "./StoreBadges";
 import type { Dictionary } from "@/i18n/getDictionary";
+import type { Locale } from "@/i18n/settings";
 
-export default function Hero({ dict }: { dict: Dictionary }) {
+export default function Hero({ dict, lang }: { dict: Dictionary; lang: Locale }) {
+  const screenshotSrc = `/images/screenshots/${lang}-1.png`;
+
   return (
     <section id="download" className="relative overflow-hidden pt-32 pb-20 md:pt-40 md:pb-32">
       {/* Animated gradient blobs */}
@@ -58,7 +61,7 @@ export default function Hero({ dict }: { dict: Dictionary }) {
             </FadeIn>
           </div>
 
-          {/* Phone mockup */}
+          {/* App Screenshot */}
           <FadeIn delay={0.2} direction="right" className="flex-shrink-0">
             <motion.div
               animate={{ y: [0, -10, 0] }}
@@ -66,7 +69,16 @@ export default function Hero({ dict }: { dict: Dictionary }) {
               className="relative"
             >
               <div className="absolute -inset-16 rounded-full bg-gradient-to-b from-mint/15 via-mint/5 to-transparent blur-3xl" />
-              <PhoneMockup />
+              <div className="relative w-[280px] sm:w-[320px] rounded-3xl overflow-hidden shadow-2xl shadow-navy-950/80">
+                <Image
+                  src={screenshotSrc}
+                  alt="Skip Or Buy app screenshot"
+                  width={640}
+                  height={1386}
+                  className="w-full h-auto"
+                  priority
+                />
+              </div>
             </motion.div>
           </FadeIn>
         </div>

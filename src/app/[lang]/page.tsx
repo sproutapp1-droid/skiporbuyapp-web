@@ -24,10 +24,10 @@ export default async function Home({
     <>
       <Header lang={lang} dict={dict} />
       <main>
-        <Hero dict={dict} />
+        <Hero dict={dict} lang={lang} />
         <Features dict={dict} />
         <HowItWorks dict={dict} />
-        <PhoneShowcase dict={dict} />
+        <PhoneShowcase dict={dict} lang={lang} />
         <Pricing dict={dict} />
         <FAQ dict={dict} />
         <CTA dict={dict} />

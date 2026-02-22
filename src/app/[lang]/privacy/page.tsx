@@ -3,6 +3,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import { getDictionary } from "@/i18n/getDictionary";
 import { type Locale } from "@/i18n/settings";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 import CookieBanner from "@/components/CookieBanner";
 
 export const metadata: Metadata = {
@@ -37,12 +38,15 @@ export default async function PrivacyPolicy({
               Skip Or Buy
             </span>
           </Link>
-          <Link
-            href={`/${lang}`}
-            className="text-sm text-slate-400 transition hover:text-mint"
-          >
-            &larr; {p.backToHome}
-          </Link>
+          <div className="flex items-center gap-4">
+            <LanguageSwitcher lang={lang} />
+            <Link
+              href={`/${lang}`}
+              className="text-sm text-slate-400 transition hover:text-mint"
+            >
+              &larr; {p.backToHome}
+            </Link>
+          </div>
         </div>
       </header>
 

@@ -1,11 +1,50 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { useState, useEffect, useCallback } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 import FadeIn from "./FadeIn";
-import PhoneMockup from "./PhoneMockup";
 import type { Dictionary } from "@/i18n/getDictionary";
+import type { Locale } from "@/i18n/settings";
 
-export default function PhoneShowcase({ dict }: { dict: Dictionary }) {
+const screenshotNumbers = [3, 2, 5, 6];
+
+export default function PhoneShowcase({ dict, lang }: { dict: Dictionary; lang: Locale }) {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [direction, setDirection] = useState(1);
+
+  const screenshots = screenshotNumbers.map((num) => ({
+    src: `/images/screenshots/${lang}-${num}.png`,
+    alt: `Skip Or Buy app screenshot ${num}`,
+  }));
+
+  const goTo = useCallback((index: number) => {
+    setDirection(index > currentIndex ? 1 : -1);
+    setCurrentIndex(index);
+  }, [currentIndex]);
+
+  const goNext = useCallback(() => {
+    setDirection(1);
+    setCurrentIndex((prev) => (prev + 1) % screenshots.length);
+  }, [screenshots.length]);
+
+  const goPrev = useCallback(() => {
+    setDirection(-1);
+    setCurrentIndex((prev) => (prev - 1 + screenshots.length) % screenshots.length);
+  }, [screenshots.length]);
+
+  // Auto-advance every 5 seconds
+  useEffect(() => {
+    const timer = setInterval(goNext, 5000);
+    return () => clearInterval(timer);
+  }, [goNext]);
+
+  const slideVariants = {
+    enter: (dir: number) => ({ x: dir > 0 ? 300 : -300, opacity: 0 }),
+    center: { x: 0, opacity: 1 },
+    exit: (dir: number) => ({ x: dir > 0 ? -300 : 300, opacity: 0 }),
+  };
+
   const callouts = [
     {
       title: dict.phoneShowcase.instantVerdicts,
@@ -83,14 +122,72 @@ export default function PhoneShowcase({ dict }: { dict: Dictionary }) {
             ))}
           </div>
 
-          {/* Phone */}
+          {/* Screenshot Carousel */}
           <FadeIn delay={0.15}>
-            <motion.div
-              animate={{ y: [0, -8, 0] }}
-              transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-            >
-              <PhoneMockup />
-            </motion.div>
+            <div className="relative">
+              <motion.div
+                animate={{ y: [0, -8, 0] }}
+                transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+              >
+                <div className="relative w-[280px] sm:w-[320px] overflow-hidden rounded-3xl shadow-2xl shadow-navy-950/80">
+                  <AnimatePresence mode="wait" custom={direction}>
+                    <motion.div
+                      key={currentIndex}
+                      custom={direction}
+                      variants={slideVariants}
+                      initial="enter"
+                      animate="center"
+                      exit="exit"
+                      transition={{ duration: 0.4, ease: "easeInOut" }}
+                    >
+                      <Image
+                        src={screenshots[currentIndex].src}
+                        alt={screenshots[currentIndex].alt}
+                        width={640}
+                        height={1386}
+                        className="w-full h-auto"
+                      />
+                    </motion.div>
+                  </AnimatePresence>
+                </div>
+              </motion.div>
+
+              {/* Navigation arrows */}
+              <button
+                onClick={goPrev}
+                className="absolute left-[-48px] top-1/2 -translate-y-1/2 hidden lg:flex h-10 w-10 items-center justify-center rounded-full border border-navy-700/50 bg-navy-800/80 text-slate-400 backdrop-blur-sm transition-all hover:border-mint/30 hover:text-mint hover:bg-navy-800"
+                aria-label="Previous screenshot"
+              >
+                <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                </svg>
+              </button>
+              <button
+                onClick={goNext}
+                className="absolute right-[-48px] top-1/2 -translate-y-1/2 hidden lg:flex h-10 w-10 items-center justify-center rounded-full border border-navy-700/50 bg-navy-800/80 text-slate-400 backdrop-blur-sm transition-all hover:border-mint/30 hover:text-mint hover:bg-navy-800"
+                aria-label="Next screenshot"
+              >
+                <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </button>
+
+              {/* Dot indicators */}
+              <div className="mt-6 flex justify-center gap-2">
+                {screenshots.map((_, i) => (
+                  <button
+                    key={i}
+                    onClick={() => goTo(i)}
+                    className={`h-2 rounded-full transition-all duration-300 ${
+                      i === currentIndex
+                        ? "w-6 bg-mint"
+                        : "w-2 bg-navy-700 hover:bg-navy-600"
+                    }`}
+                    aria-label={`Go to screenshot ${i + 1}`}
+                  />
+                ))}
+              </div>
+            </div>
           </FadeIn>
 
           {/* Right callouts */}
