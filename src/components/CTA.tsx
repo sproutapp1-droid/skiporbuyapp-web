@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import FadeIn from "./FadeIn";
-import StoreBadges from "./StoreBadges";
+import WaitlistForm from "./WaitlistForm";
 import type { Dictionary } from "@/i18n/getDictionary";
 
 export default function CTA({ dict }: { dict: Dictionary }) {
@@ -40,9 +40,11 @@ export default function CTA({ dict }: { dict: Dictionary }) {
                 </span>
               </h2>
               <p className="mx-auto mt-6 max-w-xl text-lg text-slate-400">
-                {dict.cta.subtitle}
+                {dict.comingSoon.subtitle}
               </p>
-              <StoreBadges dict={dict} className="mt-10 justify-center" />
+              <div className="mx-auto mt-10 max-w-lg">
+                <WaitlistForm dict={dict} compact centered />
+              </div>
             </div>
           </div>
         </FadeIn>

@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import FadeIn from "./FadeIn";
-import StoreBadges from "./StoreBadges";
+import WaitlistForm from "./WaitlistForm";
 import type { Dictionary } from "@/i18n/getDictionary";
 import type { Locale } from "@/i18n/settings";
 
@@ -57,7 +57,7 @@ export default function Hero({ dict, lang }: { dict: Dictionary; lang: Locale })
               </p>
             </FadeIn>
             <FadeIn delay={0.3}>
-              <StoreBadges dict={dict} className="mt-10 justify-center lg:justify-start" />
+              <WaitlistForm dict={dict} className="mt-10" />
             </FadeIn>
           </div>
 

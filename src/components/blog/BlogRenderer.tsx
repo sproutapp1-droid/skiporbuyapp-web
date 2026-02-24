@@ -209,6 +209,35 @@ function processMarkdown(md: string): string {
   // Horizontal rules
   html = html.replace(/^---$/gm, "<hr />");
 
+  // Tables
+  html = html.replace(
+    /(?:^|\n)((?:\|.+\|\n?)+)/g,
+    (_match, block: string) => {
+      const rows = block.trim().split("\n").filter((r: string) => r.trim());
+      if (rows.length < 2) return block;
+
+      // Check if second row is a separator row (|---|---|)
+      const separatorRow = rows[1];
+      if (!/^\|[\s-:|]+\|$/.test(separatorRow.trim())) return block;
+
+      const parseRow = (row: string) =>
+        row.trim().replace(/^\||\|$/g, "").split("|").map((cell: string) => cell.trim());
+
+      const headers = parseRow(rows[0]);
+      const headerHtml = headers.map((h: string) => `<th>${h}</th>`).join("");
+
+      const bodyRows = rows.slice(2);
+      const bodyHtml = bodyRows
+        .map((row: string) => {
+          const cells = parseRow(row);
+          return `<tr>${cells.map((c: string) => `<td>${c}</td>`).join("")}</tr>`;
+        })
+        .join("\n");
+
+      return `\n<div class="table-wrapper"><table><thead><tr>${headerHtml}</tr></thead><tbody>${bodyHtml}</tbody></table></div>\n`;
+    }
+  );
+
   // Paragraphs: convert double newlines to paragraph breaks
   html = html
     .split(/\n\n+/)
@@ -220,7 +249,9 @@ function processMarkdown(md: string): string {
         trimmed.startsWith("<ul") ||
         trimmed.startsWith("<ol") ||
         trimmed.startsWith("<blockquote") ||
-        trimmed.startsWith("<hr")
+        trimmed.startsWith("<hr") ||
+        trimmed.startsWith("<div") ||
+        trimmed.startsWith("<table")
       ) {
         return trimmed;
       }
