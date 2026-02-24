@@ -21,6 +21,7 @@ export default function Header({
     { label: dict.header.features, href: "#features" },
     { label: dict.header.howItWorks, href: "#how-it-works" },
     { label: dict.header.pricing, href: "#pricing" },
+    { label: "Blog", href: `/${lang}/blog` },
   ];
 
   useEffect(() => {

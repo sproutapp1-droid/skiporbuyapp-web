@@ -14,6 +14,7 @@ export default function Footer({
     { label: dict.header.features, href: "#features" },
     { label: dict.header.howItWorks, href: "#how-it-works" },
     { label: dict.header.pricing, href: "#pricing" },
+    { label: "Blog", href: `/${lang}/blog` },
     { label: dict.footer.privacyPolicy, href: `/${lang}/privacy` },
     { label: dict.footer.contact, href: `/${lang}/contact` },
   ];
