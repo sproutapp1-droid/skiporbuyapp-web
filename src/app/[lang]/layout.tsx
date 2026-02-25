@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import { Inter, Plus_Jakarta_Sans } from "next/font/google";
+import Script from "next/script";
 import "../globals.css";
 import { locales, type Locale } from "@/i18n/settings";
+
+const GA_MEASUREMENT_ID = "G-NH60JVG2SQ";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -201,6 +204,18 @@ export default async function LangLayout({
   return (
     <html lang={lang}>
       <head>
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_MEASUREMENT_ID}');
+          `}
+        </Script>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
