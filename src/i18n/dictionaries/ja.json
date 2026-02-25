@@ -4,7 +4,8 @@
     "howItWorks": "使い方",
     "pricing": "価格",
     "download": "ダウンロード",
-    "joinWaitlist": "ウェイトリスト登録"
+    "joinWaitlist": "ダウンロード",
+    "androidWaitlist": "Android ウェイトリスト"
   },
   "hero": {
     "headline": "本当のコストを知ろう、",
@@ -13,7 +14,9 @@
     "appStore": "App Store",
     "appStoreLabel": "ダウンロード（",
     "googlePlay": "Google Play",
-    "googlePlayLabel": "入手（"
+    "googlePlayLabel": "近日公開",
+    "availableOnIos": "iOSで利用可能",
+    "androidComingSoon": "Android版は近日公開 — リリース通知を受け取る"
   },
   "features": {
     "title": "賢く買うための",
@@ -159,13 +162,13 @@
     "contactIntro": "本プライバシーポリシーに関するご質問は、以下の連絡先までお問い合わせください："
   },
   "comingSoon": {
-    "title": "近日公開",
-    "subtitle": "Skip Or Buy のリリースを誰よりも早くお届けします。ご連絡先をお知らせください。",
+    "title": "Android版 近日公開",
+    "subtitle": "Skip or BuyはiOSで公開中！Android版のリリース時にお知らせします。ご連絡先をお知らせください。",
     "namePlaceholder": "お名前",
     "emailPlaceholder": "メールアドレス",
     "submit": "通知を受け取る",
     "success": "登録完了！",
-    "successDesc": "リリース時にお知らせいたします。",
+    "successDesc": "Android版のリリース時にお知らせいたします。",
     "dismiss": "閉じる"
   }
 }

@@ -4,7 +4,8 @@
     "howItWorks": "使用方法",
     "pricing": "价格",
     "download": "下载",
-    "joinWaitlist": "加入等候名单"
+    "joinWaitlist": "下载",
+    "androidWaitlist": "Android 等候名单"
   },
   "hero": {
     "headline": "了解真实成本，",
@@ -13,7 +14,9 @@
     "appStore": "App Store",
     "appStoreLabel": "下载于",
     "googlePlay": "Google Play",
-    "googlePlayLabel": "立即获取"
+    "googlePlayLabel": "即将上线",
+    "availableOnIos": "已在 iOS 上线",
+    "androidComingSoon": "Android 即将上线 — 获取发布通知"
   },
   "features": {
     "title": "更聪明地购物，",
@@ -159,13 +162,13 @@
     "contactIntro": "如果您对本隐私政策有任何疑问，请通过以下方式联系我们："
   },
   "comingSoon": {
-    "title": "即将上线",
-    "subtitle": "第一时间了解 Skip Or Buy 的发布动态。留下您的信息，我们会及时通知您。",
+    "title": "Android 即将上线",
+    "subtitle": "Skip or Buy 已在 iOS 上线！留下您的信息，Android 版本准备好后我们会第一时间通知您。",
     "namePlaceholder": "您的姓名",
     "emailPlaceholder": "您的邮箱",
     "submit": "通知我",
     "success": "您已加入名单！",
-    "successDesc": "我们会在上线时第一时间通知您。",
+    "successDesc": "Android 版本上线时我们会通知您。",
     "dismiss": "关闭"
   }
 }

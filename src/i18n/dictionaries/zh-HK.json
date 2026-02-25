@@ -4,7 +4,8 @@
     "howItWorks": "使用方法",
     "pricing": "定價",
     "download": "下載",
-    "joinWaitlist": "加入等候名單"
+    "joinWaitlist": "下載",
+    "androidWaitlist": "Android 等候名單"
   },
   "hero": {
     "headline": "購買前，先了解真實成本",
@@ -13,7 +14,9 @@
     "appStore": "App Store",
     "appStoreLabel": "立即於",
     "googlePlay": "Google Play",
-    "googlePlayLabel": "前往下載"
+    "googlePlayLabel": "即將推出",
+    "availableOnIos": "已在 iOS 上架",
+    "androidComingSoon": "Android 即將推出 — 獲取發佈通知"
   },
   "features": {
     "title": "精明消費，",
@@ -159,13 +162,13 @@
     "contactIntro": "如你對本私隱政策有任何疑問，歡迎透過以下方式聯絡我們："
   },
   "comingSoon": {
-    "title": "即將推出",
-    "subtitle": "搶先了解 Skip Or Buy 的推出消息。留下你的資料，我們會及時通知你。",
+    "title": "Android 即將推出",
+    "subtitle": "Skip or Buy 已在 iOS 上架！留下你的資料，Android 版本準備好後我們會通知你。",
     "namePlaceholder": "你的姓名",
     "emailPlaceholder": "你的電郵",
     "submit": "通知我",
     "success": "你已加入名單！",
-    "successDesc": "我們會在推出時通知你。",
+    "successDesc": "Android 版本推出時我們會通知你。",
     "dismiss": "關閉"
   }
 }

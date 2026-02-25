@@ -7,6 +7,9 @@ import type { Dictionary } from "@/i18n/getDictionary";
 import type { Locale } from "@/i18n/settings";
 import LanguageSwitcher from "./LanguageSwitcher";
 
+const IOS_APP_STORE_URL =
+  "https://apps.apple.com/us/app/skip-or-buy-cost-per-use/id6759465475";
+
 type FormState = "idle" | "sending" | "sent";
 
 export default function Header({
@@ -80,23 +83,7 @@ export default function Header({
     }
   };
 
-  const waitlistButton = (mobile?: boolean) => (
-    <button
-      onClick={() => setWaitlistOpen(!waitlistOpen)}
-      className={
-        mobile
-          ? "mt-2 rounded-full bg-mint px-5 py-3 text-center text-sm font-semibold text-navy-900"
-          : "group relative overflow-hidden rounded-full bg-mint px-5 py-2 text-sm font-semibold text-navy-900 transition-all hover:shadow-lg hover:shadow-mint/25"
-      }
-    >
-      <span className="relative z-10">{dict.header.joinWaitlist}</span>
-      {!mobile && (
-        <div className="absolute inset-0 -translate-x-full bg-white/20 transition-transform duration-300 group-hover:translate-x-0" />
-      )}
-    </button>
-  );
-
-  const waitlistDropdown = (
+  const androidWaitlistDropdown = (
     <AnimatePresence>
       {waitlistOpen && (
         <motion.div
@@ -210,8 +197,22 @@ export default function Header({
         {/* Right side */}
         <div className="hidden items-center gap-3 md:flex relative">
           <LanguageSwitcher lang={lang} />
-          {waitlistButton()}
-          {waitlistDropdown}
+          <button
+            onClick={() => setWaitlistOpen(!waitlistOpen)}
+            className="rounded-full border border-white/10 px-4 py-2 text-sm text-slate-300 transition-all hover:border-white/20 hover:text-white"
+          >
+            {dict.header.androidWaitlist}
+          </button>
+          <a
+            href={IOS_APP_STORE_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative overflow-hidden rounded-full bg-mint px-5 py-2 text-sm font-semibold text-navy-900 transition-all hover:shadow-lg hover:shadow-mint/25"
+          >
+            <span className="relative z-10">{dict.header.joinWaitlist}</span>
+            <div className="absolute inset-0 -translate-x-full bg-white/20 transition-transform duration-300 group-hover:translate-x-0" />
+          </a>
+          {androidWaitlistDropdown}
         </div>
 
         {/* Mobile buttons */}
@@ -261,15 +262,32 @@ export default function Header({
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.15 }}
+                className="flex flex-col gap-2 mt-2"
               >
-                {waitlistButton(true)}
+                <button
+                  onClick={() => {
+                    setMobileOpen(false);
+                    setWaitlistOpen(true);
+                  }}
+                  className="rounded-full border border-white/10 px-5 py-3 text-center text-sm text-slate-300 transition hover:border-white/20 hover:text-white"
+                >
+                  {dict.header.androidWaitlist}
+                </button>
+                <a
+                  href={IOS_APP_STORE_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-full bg-mint px-5 py-3 text-center text-sm font-semibold text-navy-900"
+                >
+                  {dict.header.joinWaitlist}
+                </a>
               </motion.div>
             </nav>
           </motion.div>
         )}
       </AnimatePresence>
 
-      {/* Mobile waitlist dropdown */}
+      {/* Mobile Android waitlist dropdown */}
       <AnimatePresence>
         {waitlistOpen && (
           <div className="md:hidden">

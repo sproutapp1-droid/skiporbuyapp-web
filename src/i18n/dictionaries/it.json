@@ -4,7 +4,8 @@
     "howItWorks": "Come Funziona",
     "pricing": "Prezzi",
     "download": "Scarica",
-    "joinWaitlist": "Iscriviti alla lista"
+    "joinWaitlist": "Scarica",
+    "androidWaitlist": "Lista d'attesa Android"
   },
   "hero": {
     "headline": "Scopri il costo reale",
@@ -13,7 +14,9 @@
     "appStore": "App Store",
     "appStoreLabel": "Scarica su",
     "googlePlay": "Google Play",
-    "googlePlayLabel": "Disponibile su"
+    "googlePlayLabel": "In arrivo",
+    "availableOnIos": "Disponibile su iOS",
+    "androidComingSoon": "Android in arrivo — ricevi una notifica al lancio"
   },
   "features": {
     "title": "Tutto ciò che ti serve per",
@@ -159,13 +162,13 @@
     "contactIntro": "Per qualsiasi domanda su questa informativa sulla privacy, contattaci all'indirizzo:"
   },
   "comingSoon": {
-    "title": "In arrivo",
-    "subtitle": "Sii il primo a sapere quando Skip Or Buy sarà disponibile. Lascia i tuoi dati e ti terremo aggiornato.",
+    "title": "Android in arrivo",
+    "subtitle": "Skip or Buy è disponibile su iOS! Lascia i tuoi dati e ti avviseremo quando la versione Android sarà pronta.",
     "namePlaceholder": "Il tuo nome",
     "emailPlaceholder": "La tua email",
     "submit": "Avvisami",
     "success": "Sei nella lista!",
-    "successDesc": "Ti avviseremo non appena saremo online.",
+    "successDesc": "Ti avviseremo quando la versione Android sarà disponibile.",
     "dismiss": "Chiudi"
   }
 }
