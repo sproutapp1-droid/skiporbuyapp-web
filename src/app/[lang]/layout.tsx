@@ -15,8 +15,8 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: "Skip Or Buy: Worth It? — Cost Per Use Calculator App",
-    template: "%s | Skip Or Buy: Worth It?",
+    default: "Skip or Buy: Cost Per Use — Cost Per Use Calculator App",
+    template: "%s | Skip or Buy: Cost Per Use",
   },
   description:
     "Calculate the cost per use of anything before you buy. Compare products, get instant verdicts, and make smarter purchase decisions. One-time purchase — no subscription, no ads.",
@@ -60,11 +60,11 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Skip Or Buy: Worth It? — Know the Real Cost Before You Buy",
+    title: "Skip or Buy: Cost Per Use — Know the Real Cost Before You Buy",
     description:
       "Calculate the cost per use of anything in seconds. 33 built-in categories with smart benchmarks. Compare products side by side. One-time purchase — no subscription, no ads.",
     url: "https://skiporbuyapp.com",
-    siteName: "Skip Or Buy: Worth It?",
+    siteName: "Skip or Buy: Cost Per Use",
     type: "website",
     locale: "en_GB",
     images: [
@@ -72,13 +72,13 @@ export const metadata: Metadata = {
         url: "/images/logo.png",
         width: 1024,
         height: 1024,
-        alt: "Skip Or Buy: Worth It? App Logo",
+        alt: "Skip or Buy: Cost Per Use App Logo",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Skip Or Buy: Worth It? — Cost Per Use Calculator",
+    title: "Skip or Buy: Cost Per Use — Cost Per Use Calculator",
     description:
       "Calculate the cost per use of anything before you buy. Compare products, get instant verdicts. No subscription, no ads.",
     images: ["/images/logo.png"],
@@ -113,7 +113,7 @@ export default async function LangLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    name: "Skip Or Buy: Worth It?",
+    name: "Skip or Buy: Cost Per Use",
     description:
       "Calculate the cost per use of anything before you buy. Compare products, get instant verdicts, and make smarter purchase decisions.",
     applicationCategory: "UtilitiesApplication",
@@ -154,7 +154,7 @@ export default async function LangLayout({
         name: "Is Skip Or Buy a subscription?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "No. Skip Or Buy: Worth It? is a one-time purchase. You pay once and own it forever. There are no subscriptions, no ads, and no in-app purchases.",
+          text: "No. Skip or Buy: Cost Per Use is a one-time purchase. You pay once and own it forever. There are no subscriptions, no ads, and no in-app purchases.",
         },
       },
       {
@@ -187,7 +187,7 @@ export default async function LangLayout({
   const websiteJsonLd = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "Skip Or Buy: Worth It?",
+    name: "Skip or Buy: Cost Per Use",
     url: "https://skiporbuyapp.com",
     description:
       "Cost per use calculator app — know the real cost before you buy.",

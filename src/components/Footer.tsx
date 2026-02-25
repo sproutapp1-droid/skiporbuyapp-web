@@ -36,7 +36,7 @@ export default function Footer({
               className="rounded-lg transition-transform group-hover:scale-110"
             />
             <span className="font-heading text-lg font-bold text-white">
-              Skip Or Buy: Worth It?
+              Skip or Buy: Cost Per Use
             </span>
           </div>
 
@@ -66,7 +66,7 @@ export default function Footer({
 
         <div className="mt-8 flex flex-col items-center gap-4 border-t border-navy-700/30 pt-8 md:flex-row md:justify-between">
           <p className="text-sm text-slate-500">
-            &copy; {new Date().getFullYear()} Skip Or Buy: Worth It?{" "}
+            &copy; {new Date().getFullYear()} Skip or Buy: Cost Per Use{" "}
             {dict.footer.copyright}
           </p>
           <a

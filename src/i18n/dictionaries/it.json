@@ -90,7 +90,7 @@
     "q1": "Cos'è il costo per utilizzo?",
     "a1": "Il costo per utilizzo è una formula semplice: il prezzo totale di un articolo diviso per il numero di volte che lo usi. Ti indica il vero valore di un acquisto — una giacca da £200 indossata 200 volte costa solo £1 per utilizzo, mentre una giacca da £50 indossata 5 volte ne costa £10 per utilizzo. Il costo per utilizzo ti aiuta ad andare oltre il prezzo in etichetta.",
     "q2": "È un abbonamento?",
-    "a2": "No. Skip Or Buy: Worth It? è un acquisto una tantum. Paghi una volta sola (€5,99) ed è tuo per sempre. Non ci sono abbonamenti, pubblicità né acquisti in-app.",
+    "a2": "No. Skip or Buy: Cost Per Use è un acquisto una tantum. Paghi una volta sola (€5,99) ed è tuo per sempre. Non ci sono abbonamenti, pubblicità né acquisti in-app.",
     "q3": "Quali categorie sono incluse?",
     "a3": "L'app include 33 categorie integrate che coprono tutto: dall'abbigliamento e calzature all'elettronica, utensili da cucina, mobili, attrezzatura fitness, prodotti di bellezza e molto altro. Ogni categoria include benchmark del mondo reale per vedere come si confronta il tuo costo per utilizzo. Puoi anche creare le tue categorie personalizzate per adattarle al tuo stile di vita.",
     "q4": "L'app ha bisogno di internet?",
@@ -101,7 +101,7 @@
   "cta": {
     "title": "Smetti di tirare a indovinare.",
     "titleAccent": "Inizia a sapere con certezza.",
-    "subtitle": "Scarica Skip Or Buy: Worth It? e dai senso a ogni acquisto."
+    "subtitle": "Scarica Skip or Buy: Cost Per Use e dai senso a ogni acquisto."
   },
   "footer": {
     "privacyPolicy": "Informativa sulla Privacy",
@@ -135,7 +135,7 @@
     "title": "Informativa sulla Privacy",
     "lastUpdated": "Ultimo aggiornamento: febbraio 2026",
     "backToHome": "Torna alla home",
-    "intro": "Skip Or Buy: Worth It? (\"l'App\") è sviluppata e gestita da Skip Or Buy (\"noi\", \"ci\", \"nostro\"). Ci impegniamo a proteggere la tua privacy. Questa informativa spiega quali dati l'App raccoglie (o non raccoglie) e come vengono gestiti.",
+    "intro": "Skip or Buy: Cost Per Use (\"l'App\") è sviluppata e gestita da Skip Or Buy (\"noi\", \"ci\", \"nostro\"). Ci impegniamo a proteggere la tua privacy. Questa informativa spiega quali dati l'App raccoglie (o non raccoglie) e come vengono gestiti.",
     "dataStorageTitle": "1. Archiviazione dei Dati",
     "dataStorage": "Tutti i dati che crei nell'App — inclusi articoli salvati, foto, calcoli e preferenze — sono archiviati localmente sul tuo dispositivo. Non gestiamo alcun servizio di cloud storage, account utente o sincronizzazione. I tuoi dati non lasciano mai il tuo telefono.",
     "analyticsTitle": "2. Analisi",

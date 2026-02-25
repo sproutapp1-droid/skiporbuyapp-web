@@ -7,8 +7,8 @@ import LanguageSwitcher from "@/components/LanguageSwitcher";
 import CookieBanner from "@/components/CookieBanner";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — Skip Or Buy: Worth It?",
-  description: "Privacy policy for the Skip Or Buy: Worth It? app.",
+  title: "Privacy Policy — Skip or Buy: Cost Per Use",
+  description: "Privacy policy for the Skip or Buy: Cost Per Use app.",
 };
 
 export default async function PrivacyPolicy({
@@ -147,7 +147,7 @@ export default async function PrivacyPolicy({
       <footer className="border-t border-navy-700 bg-navy-950 py-8">
         <div className="mx-auto max-w-7xl px-6 text-center">
           <p className="text-sm text-slate-500">
-            &copy; {new Date().getFullYear()} Skip Or Buy: Worth It?{" "}
+            &copy; {new Date().getFullYear()} Skip or Buy: Cost Per Use{" "}
             {dict.footer.copyright}
           </p>
         </div>
