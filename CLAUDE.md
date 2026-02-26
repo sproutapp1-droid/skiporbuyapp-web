@@ -18,7 +18,78 @@ The `StoreBadges` component shows the iOS App Store badge (real link) and a dimm
 - Update dictionary `comingSoon.*` and `hero.androidComingSoon` keys across all 8 language files.
 - The `WaitlistForm` component can be removed if no longer needed.
 
-## Blog Posts (35 articles)
+## App Description & Features
+
+### What Skip Or Buy Does
+You're in the store. You're holding something. You're thinking: "Is this actually worth it?" Skip Or Buy gives you the answer in seconds. Enter the price, pick a category, and instantly see the real cost per use — with a clear Buy, Think Twice, or Skip verdict. No guesswork. No guilt. Just the math.
+
+### How It Works
+1. Enter the price
+2. Pick a category (clothes, tech, kitchen, fitness, furniture, or your own)
+3. See your cost per use, a 0-100 value score, and a clear verdict
+
+### What Makes It Different
+Most budgeting apps ask: "Can you afford this?" Skip Or Buy asks: "Is this worth what you'll pay per use?"
+- A £200 jacket worn 3x/week for 2 years = £0.64 per wear (less than a coffee — Buy it)
+- A £50 gadget used twice then forgotten = £25 per use (Skip it)
+- The price tag lies. The cost per use tells the truth.
+
+### Features
+- **Cost Per Use Calculator** — Enter any price, frequency, and lifespan. Get the real number instantly.
+- **Usage Logging** — Log every time you use an item. Watch your real cost per use drop with each use.
+- **"Worth It By" Date** — See exactly when a purchase pays for itself based on your actual usage rate.
+- **Item Photos** — Add photos to your saved items so you always know what you're tracking.
+- **Smart Benchmarks** — Built-in data for clothing, electronics, kitchen, fitness, furniture, and more.
+- **Buy / Think Twice / Skip** — A clear, colour-coded verdict so you never second-guess.
+- **Value Score** — 0 to 100 scale. See exactly how good (or bad) a purchase is at a glance.
+- **Side-by-Side Compare** — Torn between two options? Compare them head to head and see which one wins on value.
+- **Value Diary** — Save every purchase. Log uses, add photos, and track your cost per use as it changes over time.
+- **Share Cards** — Generate beautiful cards with your verdict to share with friends or post on social media.
+- **Custom Benchmarks** — Edit thresholds for any category. Set your own standards for what counts as a good deal.
+- **Works Offline** — No internet needed. No account required. No data ever leaves your device.
+- **Dark & Light Mode** — Automatic or manual.
+- **8 Languages** — English, French, German, Spanish, Italian, Japanese, Simplified Chinese, Traditional Chinese.
+
+### Pricing & Privacy
+- One-time purchase. No subscriptions. No in-app purchases. No ads. No tracking.
+- Everything is stored locally on your device. Nothing is uploaded, shared, or tracked.
+
+### App Store Pricing by Region (source: `.claude/Current Price May Adjust Automatically.csv`)
+Key markets:
+| Region | Currency | Price |
+|--------|----------|-------|
+| United States | USD | $4.99 |
+| United Kingdom | GBP | £4.99 |
+| EU (Germany, France, Italy, Spain, etc.) | EUR | €5.99 |
+| Canada | CAD | C$6.99 |
+| Australia | AUD | A$7.99 |
+| Japan | JPY | ¥800 |
+| China mainland | CNY | ¥38 |
+| India | INR | ₹499 |
+| Brazil | BRL | R$29.90 |
+| South Korea | KRW | ₩6,600 |
+| Mexico | MXN | $99 |
+| Taiwan | TWD | NT$150 |
+| Switzerland | CHF | CHF 4.00 |
+| Sweden | SEK | 69 kr |
+| Norway | NOK | 59 kr |
+| Denmark | DKK | 39 kr |
+| New Zealand | NZD | NZ$9.99 |
+| Singapore | SGD | S$6.98 |
+| Hong Kong | HKD | HK$38 |
+| South Africa | ZAR | R99.99 |
+| Turkey | TRY | ₺249.99 |
+| Poland | PLN | 24.99 zł |
+
+Most other countries default to USD $4.99 or $5.99. Prices marked "May Adjust Automatically: Y" can change with exchange rates. UK price (£4.99) is fixed (N).
+
+### Target Audience
+- Impulse buyers who want to make smarter decisions
+- Minimalists who only want to own things that earn their place
+- Budget-conscious shoppers who want hard numbers, not feelings
+- Anyone tired of buying things that collect dust
+
+## Blog Posts (45 articles)
 
 All blog posts are in `src/content/blog/` as markdown files. The custom markdown renderer is in `src/components/blog/BlogRenderer.tsx` and supports: headings, bold/italic, links, lists, blockquotes, inline code, horizontal rules, tables, and custom blocks (:::stats, :::takeaway, :::blogcta, :::calculator, :::checklist).
 
@@ -62,6 +133,22 @@ All blog posts are in `src/content/blog/` as markdown files. The custom markdown
 - `sale-psychology-discounts.md` - Sale Psychology: Why 70% Off Doesn't Always Mean a Good Deal
 - `black-friday-survival-guide.md` - Black Friday Survival Guide: How to Spot Real Deals and Avoid Traps
 - `minimalist-shopping-list.md` - The Minimalist Shopping List: Buy Only What Adds Value
+
+### Value Mindset & Boots Theory (4 posts)
+- `boots-theory-cost-per-use.md` - The Boots Theory: Why Buying Cheap Costs More (And How to Break the Cycle)
+- `reframe-price-to-cost-per-use.md` - Stop Thinking About Price, Start Thinking About Cost Per Use
+- `buy-it-for-life-cost-per-use.md` - Buy It for Life: 15 Items Where Spending More Saves You Thousands
+- `cost-per-use-mindset-shift.md` - The Cost Per Use Mindset: How One Simple Calculation Changes Everything
+
+### In-Store Decision Making (3 posts)
+- `should-i-buy-this-checklist.md` - Should I Buy This? The 60-Second Checklist for Every Purchase
+- `in-store-impulse-buying-tricks.md` - 8 In-Store Tricks That Make You Impulse Buy (And How to Beat Them)
+- `is-it-worth-it-quiz.md` - Is It Worth It? How to Know in Under a Minute
+
+### Seasonal & Trending (3 posts)
+- `spring-wardrobe-cost-per-wear.md` - Spring Wardrobe Refresh: A Cost Per Wear Approach to Seasonal Shopping
+- `gym-equipment-cost-per-use.md` - Home Gym Equipment: Cost Per Use Breakdown (Is It Cheaper Than a Membership?)
+- `subscription-vs-buying-cost-per-use.md` - Subscribe or Buy? How to Calculate the Real Cost of Subscriptions vs Ownership
 
 ### App Features (4 posts)
 - `introducing-skip-or-buy-app.md` - Introducing Skip or Buy: The App That Calculates the Real Cost of Everything

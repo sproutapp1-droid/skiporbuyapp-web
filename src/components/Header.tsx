@@ -186,9 +186,14 @@ export default function Header({
             <a
               key={link.href}
               href={link.href}
-              className="relative rounded-lg px-4 py-2 text-sm text-slate-400 transition-colors hover:text-white group"
+              className="relative rounded-lg px-4 py-2 text-sm text-slate-400 transition-colors hover:text-white group flex items-center gap-2"
             >
               {link.label}
+              {link.href.includes("#pricing") && (
+                <span className="rounded-full bg-mint/10 px-2 py-0.5 text-[11px] font-semibold text-mint">
+                  {dict.pricing.price}
+                </span>
+              )}
               <span className="absolute bottom-0 left-1/2 h-0.5 w-0 -translate-x-1/2 rounded-full bg-mint transition-all duration-300 group-hover:w-4/5" />
             </a>
           ))}
@@ -245,19 +250,36 @@ export default function Header({
             className="overflow-hidden border-t border-navy-700/30 bg-navy-900/95 backdrop-blur-2xl md:hidden"
           >
             <nav className="flex flex-col gap-1 px-6 py-4">
-              {navLinks.map((link, i) => (
-                <motion.a
-                  key={link.href}
-                  href={link.href}
-                  onClick={() => setMobileOpen(false)}
-                  initial={{ opacity: 0, x: -20 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: i * 0.05 }}
-                  className="rounded-lg px-4 py-3 text-slate-300 transition hover:bg-navy-800 hover:text-white"
-                >
-                  {link.label}
-                </motion.a>
-              ))}
+              {navLinks.map((link, i) =>
+                link.href.includes("#pricing") ? (
+                  <motion.a
+                    key={link.href}
+                    href={link.href}
+                    onClick={() => setMobileOpen(false)}
+                    initial={{ opacity: 0, x: -20 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: i * 0.05 }}
+                    className="flex items-center justify-between rounded-lg px-4 py-3 text-slate-300 transition hover:bg-navy-800 hover:text-white"
+                  >
+                    <span>{link.label}</span>
+                    <span className="rounded-full bg-mint/10 px-2.5 py-0.5 text-xs font-semibold text-mint">
+                      {dict.pricing.price}
+                    </span>
+                  </motion.a>
+                ) : (
+                  <motion.a
+                    key={link.href}
+                    href={link.href}
+                    onClick={() => setMobileOpen(false)}
+                    initial={{ opacity: 0, x: -20 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: i * 0.05 }}
+                    className="rounded-lg px-4 py-3 text-slate-300 transition hover:bg-navy-800 hover:text-white"
+                  >
+                    {link.label}
+                  </motion.a>
+                )
+              )}
               <motion.div
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
