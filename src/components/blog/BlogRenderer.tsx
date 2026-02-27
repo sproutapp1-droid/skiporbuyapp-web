@@ -132,7 +132,7 @@ function parseContent(content: string): ParsedElement[] {
 }
 
 function parseStatLine(line: string): { value: number; prefix?: string; suffix?: string; label: string; format?: "currency" | "percentage" | "number" } | null {
-  const valueMatch = line.match(/value=(\d+)/);
+  const valueMatch = line.match(/value=([\d.]+)/);
   const prefixMatch = line.match(/prefix="([^"]+)"/);
   const suffixMatch = line.match(/suffix="([^"]+)"/);
   const labelMatch = line.match(/label="([^"]+)"/);
@@ -141,7 +141,7 @@ function parseStatLine(line: string): { value: number; prefix?: string; suffix?:
   if (!valueMatch || !labelMatch) return null;
 
   return {
-    value: parseInt(valueMatch[1]),
+    value: parseFloat(valueMatch[1]),
     prefix: prefixMatch?.[1],
     suffix: suffixMatch?.[1],
     label: labelMatch[1],

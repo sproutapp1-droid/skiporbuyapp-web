@@ -27,18 +27,22 @@ function AnimatedCounter({
     const duration = 1500;
     const startTime = Date.now();
 
+    const decimals = value % 1 !== 0 ? (value.toString().split(".")[1]?.length || 0) : 0;
+
     const animate = () => {
       const elapsed = Date.now() - startTime;
       const progress = Math.min(elapsed / duration, 1);
       const eased = 1 - Math.pow(1 - progress, 3);
-      const current = Math.round(eased * value);
+      const current = eased * value;
 
-      if (format === "currency") {
-        setDisplay(current.toLocaleString());
+      if (decimals > 0) {
+        setDisplay(current.toFixed(decimals));
+      } else if (format === "currency") {
+        setDisplay(Math.round(current).toLocaleString());
       } else if (format === "percentage") {
-        setDisplay(current.toString());
+        setDisplay(Math.round(current).toString());
       } else {
-        setDisplay(current.toLocaleString());
+        setDisplay(Math.round(current).toLocaleString());
       }
 
       if (progress < 1) {
