@@ -161,6 +161,24 @@
     "contactTitle": "9. Kontakt",
     "contactIntro": "Wenn du Fragen zu dieser Datenschutzrichtlinie hast, kontaktiere uns bitte unter:"
   },
+  "problemBridge": {
+    "title": "Der Preis lügt.",
+    "titleAccent": "Die Kosten pro Nutzung sagen die Wahrheit.",
+    "subtitle": "Zwei Einkäufe. Zwei völlig verschiedene Geschichten. Tippe, um die wahren Kosten zu sehen.",
+    "goodLabel": "250 € Winterjacke",
+    "goodDetail": "3-mal pro Woche getragen, 2 Jahre lang. Das sind 312 Einsätze für einen einzigen Kauf.",
+    "goodCostPerUse": "0,80 €/Nutzung",
+    "goodComparison": "Weniger als ein Kaffee",
+    "goodVerdict": "LOHNT SICH",
+    "badLabel": "60 € Küchengerät",
+    "badDetail": "Zweimal benutzt, dann im Schrank vergessen.",
+    "badCostPerUse": "30,00 €/Nutzung",
+    "badComparison": "Mehr als ein Essen im Restaurant",
+    "badVerdict": "NICHT KAUFEN",
+    "revealButton": "Kosten pro Nutzung enthüllen",
+    "closingLine": "Das teure Produkt war das Schnäppchen. Das günstige war die Verschwendung. Skip or Buy zeigt dir die echte Zahl, bevor du kaufst.",
+    "bootsTheory": "Wie Terry Pratchett schrieb: Wer billige Stiefel kauft, gibt im Laufe seines Lebens mehr aus als jemand, der gute kauft. Der Preis bestraft diejenigen, die nicht über ihn hinaussehen."
+  },
   "comingSoon": {
     "title": "Android kommt bald",
     "subtitle": "Skip or Buy ist jetzt auf iOS verfügbar! Hinterlasse deine Daten und wir benachrichtigen dich, sobald die Android-Version bereit ist.",

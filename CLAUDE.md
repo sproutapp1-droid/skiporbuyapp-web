@@ -89,7 +89,7 @@ Most other countries default to USD $4.99 or $5.99. Prices marked "May Adjust Au
 - Budget-conscious shoppers who want hard numbers, not feelings
 - Anyone tired of buying things that collect dust
 
-## Blog Posts (60 articles)
+## Blog Posts (73 articles)
 
 All blog posts are in `src/content/blog/` as markdown files. The custom markdown renderer is in `src/components/blog/BlogRenderer.tsx` and supports: headings, bold/italic, links, lists, blockquotes, inline code, horizontal rules, tables, and custom blocks (:::stats, :::takeaway, :::blogcta, :::calculator, :::checklist).
 
@@ -103,7 +103,7 @@ All blog posts are in `src/content/blog/` as markdown files. The custom markdown
 - `best-cost-per-use-items.md` - The Best Cost Per Use Items: 20 Purchases That Pay for Themselves
 - `price-per-wear-shoes.md` - Price Per Wear for Shoes: How to Know If Those Shoes Are Actually Worth It
 
-### Impulse Buying (11 posts)
+### Impulse Buying (13 posts)
 - `how-to-stop-impulse-buying.md` - How to Stop Impulse Buying: 12 Proven Strategies That Actually Work
 - `psychology-of-impulse-buying.md` - The Psychology of Impulse Buying: Why We Buy Things We Don't Need
 - `signs-you-are-impulse-buyer.md` - 10 Signs You Are an Impulse Buyer (and How to Fix It)
@@ -115,16 +115,19 @@ All blog posts are in `src/content/blog/` as markdown files. The custom markdown
 - `amazon-impulse-purchases-avoid.md` - How to Stop Buying Things You Don't Need on Amazon: 10 Practical Tips
 - `shopping-addiction-signs-help.md` - Shopping Addiction: 12 Warning Signs and How to Get Your Spending Under Control
 - `dopamine-shopping-retail-therapy.md` - Dopamine Shopping: Why Buying Feels So Good (and How to Break the Cycle)
+- `haul-regret-fast-fashion.md` - Haul Regret: Why Your Shopping Hauls Are Costing More Than You Think
+- `how-to-stop-buying-things.md` - How to Stop Buying Things You Don't Need: The Complete Guide
 
-### No Spend Challenges (6 posts)
+### No Spend Challenges (7 posts)
 - `no-spend-january-guide.md` - No Spend January: The Complete Guide to Starting Your Year Right
 - `no-spend-february-2026.md` - No Spend February 2026: Short Month, Big Savings
 - `no-spend-week-challenge.md` - No Spend Week Challenge for Beginners: Save Money in 7 Days
 - `no-spend-challenge-rules.md` - No Spend Challenge Rules: How to Set Up Your Own Money-Free Month
 - `30-day-no-spend-challenge.md` - 30-Day No Spend Challenge: Day-by-Day Guide
 - `lessons-from-no-spend-challenges.md` - What I Learned from 6 Months of No Spend Challenges
+- `no-spend-challenge-results.md` - No Spend Challenge Results: How Much Do People Actually Save?
 
-### Budgeting & Saving (8 posts)
+### Budgeting & Saving (13 posts)
 - `50-30-20-budget-rule.md` - 50/30/20 Budget Rule: A Simple Framework for Your Money
 - `save-money-everyday-purchases.md` - How to Save Money on Everyday Purchases Without Feeling Deprived
 - `money-saving-challenges.md` - 15 Money-Saving Challenges to Try This Year
@@ -133,8 +136,13 @@ All blog posts are in `src/content/blog/` as markdown files. The custom markdown
 - `needs-vs-wants-how-to-tell.md` - Needs vs Wants: How to Tell the Difference and Make Better Spending Decisions
 - `lifestyle-creep-how-to-avoid.md` - Lifestyle Creep: What It Is and How to Stop Spending More as You Earn More
 - `debt-free-living-spend-less.md` - Debt-Free Living: How Spending Less on Things You Don't Use Accelerates Your Journey
+- `financial-minimalism-guide.md` - Financial Minimalism: How to Own Less and Have More
+- `zero-based-budgeting-guide.md` - Zero-Based Budgeting for Beginners: Every Dollar Has a Job
+- `frugal-living-tips.md` - Frugal Living Tips: 30 Ways to Spend Less Without Feeling Deprived
+- `fire-movement-cost-per-use.md` - FIRE Movement Spending: How Cost Per Use Fits Into Financial Independence
+- `subscription-audit-guide.md` - Subscription Audit: How to Find and Cancel Subscriptions You Don't Actually Use
 
-### Smart Shopping (9 posts)
+### Smart Shopping (14 posts)
 - `mindful-spending-guide.md` - Mindful Spending: How to Buy Less but Better
 - `how-much-spend-on-clothes.md` - How Much Should You Spend on Clothes? A Cost Per Use Approach
 - `how-to-compare-products.md` - How to Compare Products Before You Buy: A Smarter Framework
@@ -144,6 +152,11 @@ All blog posts are in `src/content/blog/` as markdown files. The custom markdown
 - `capsule-wardrobe-cost-savings.md` - Capsule Wardrobe: How Much It Costs, How Much It Saves, and How to Build One
 - `fast-fashion-vs-quality-clothes.md` - Fast Fashion vs Quality Clothes: The Real Cost Comparison (With Numbers)
 - `save-money-on-groceries.md` - How to Save Money on Groceries: 20 Tips That Actually Work in 2026
+- `decluttering-cost-per-use.md` - Decluttering and Cost Per Use: What Your Unused Stuff Really Cost You
+- `buy-it-for-life-reddit.md` - Buy It for Life: Reddit's Favorite Durable Items and Their Cost Per Use
+- `generic-vs-brand-name.md` - Generic vs Brand Name: When the Store Brand Is Actually Better Value
+- `fashion-rental-cost-per-wear.md` - Renting vs Buying Clothes: Fashion Rental Cost Per Wear Analysis
+- `secondhand-vs-new-cost-per-use.md` - Buying Secondhand vs New: A Cost Per Use Framework
 
 ### Value Mindset & Boots Theory (6 posts)
 - `boots-theory-cost-per-use.md` - The Boots Theory: Why Buying Cheap Costs More (And How to Break the Cycle)

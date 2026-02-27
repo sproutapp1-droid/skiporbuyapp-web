@@ -161,6 +161,24 @@
     "contactTitle": "9. 聯絡我們",
     "contactIntro": "如你對本私隱政策有任何疑問，歡迎透過以下方式聯絡我們："
   },
+  "problemBridge": {
+    "title": "標價會騙人。",
+    "titleAccent": "每次使用成本才是真相。",
+    "subtitle": "兩筆消費，兩個截然不同的故事。點擊查看它們的真實成本。",
+    "goodLabel": "HK$1,500 冬季外套",
+    "goodDetail": "每週穿3次，穿了2年。一次購買，總共穿了312次。",
+    "goodCostPerUse": "HK$4.81/次",
+    "goodComparison": "比一杯咖啡還便宜",
+    "goodVerdict": "值得買",
+    "badLabel": "HK$400 廚房小工具",
+    "badDetail": "用了兩次就被遺忘在櫥櫃角落。",
+    "badCostPerUse": "HK$200/次",
+    "badComparison": "比出街食飯還貴",
+    "badVerdict": "算了吧",
+    "revealButton": "查看每次使用成本",
+    "closingLine": "貴嘅嗰個先至係真正嘅抵買。平嘅嗰個先至係真正嘅嘥錢。Skip or Buy 喺你買之前，話你知真正嘅數字。",
+    "bootsTheory": "正如 Terry Pratchett 所寫：買平價靴嘅人一世花嘅錢，比買好靴嘅人更多。標價懲罰嘅係睇唔穿標價背後真相嘅人。"
+  },
   "comingSoon": {
     "title": "Android 即將推出",
     "subtitle": "Skip or Buy 已在 iOS 上架！留下你的資料，Android 版本準備好後我們會通知你。",

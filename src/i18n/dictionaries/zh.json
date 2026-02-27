@@ -161,6 +161,24 @@
     "contactTitle": "9. 联系我们",
     "contactIntro": "如果您对本隐私政策有任何疑问，请通过以下方式联系我们："
   },
+  "problemBridge": {
+    "title": "标价会骗人。",
+    "titleAccent": "每次使用成本才是真相。",
+    "subtitle": "两笔购买，两个截然不同的故事。点击查看它们的真实成本。",
+    "goodLabel": "¥1,500的冬季外套",
+    "goodDetail": "每周穿3次，穿了2年。一次购买，总共穿了312次。",
+    "goodCostPerUse": "¥4.81/次",
+    "goodComparison": "比一杯咖啡还便宜",
+    "goodVerdict": "值得购买",
+    "badLabel": "¥350的厨房小工具",
+    "badDetail": "用了两次就被遗忘在橱柜角落。",
+    "badCostPerUse": "¥175/次",
+    "badComparison": "比一顿外卖还贵",
+    "badVerdict": "果断放弃",
+    "revealButton": "查看每次使用成本",
+    "closingLine": "贵的那个才是真正的实惠。便宜的那个才是真正的浪费。Skip or Buy 在你购买前，告诉你真实的数字。",
+    "bootsTheory": "正如特里·普拉切特所写：买便宜靴子的人一辈子花的钱，比买好靴子的人还多。标价惩罚的是那些看不到标价背后真相的人。"
+  },
   "comingSoon": {
     "title": "Android 即将上线",
     "subtitle": "Skip or Buy 已在 iOS 上线！留下您的信息，Android 版本准备好后我们会第一时间通知您。",

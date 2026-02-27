@@ -161,6 +161,24 @@
     "contactTitle": "9. Contattaci",
     "contactIntro": "Per qualsiasi domanda su questa informativa sulla privacy, contattaci all'indirizzo:"
   },
+  "problemBridge": {
+    "title": "Il prezzo mente.",
+    "titleAccent": "Il costo per utilizzo dice la verità.",
+    "subtitle": "Due acquisti. Due storie molto diverse. Tocca per scoprire quanto costano davvero.",
+    "goodLabel": "Giacca invernale da 250 €",
+    "goodDetail": "Indossata 3 volte a settimana per 2 anni. Sono 312 utilizzi con un solo acquisto.",
+    "goodCostPerUse": "0,80 €/utilizzo",
+    "goodComparison": "Meno di un caffè",
+    "goodVerdict": "NE VALE LA PENA",
+    "badLabel": "Gadget da cucina da 60 €",
+    "badDetail": "Usato due volte, poi dimenticato in fondo a un cassetto.",
+    "badCostPerUse": "30,00 €/utilizzo",
+    "badComparison": "Più di un pasto fuori",
+    "badVerdict": "LASCIA PERDERE",
+    "revealButton": "Rivela il costo per utilizzo",
+    "closingLine": "Quello costoso era l'affare. Quello economico era lo spreco. Skip or Buy ti mostra il numero reale prima di acquistare.",
+    "bootsTheory": "Come scrisse Terry Pratchett: chi compra stivali economici spende di più nel corso della vita rispetto a chi ne compra di buoni. Il prezzo punisce chi non riesce a guardare oltre."
+  },
   "comingSoon": {
     "title": "Android in arrivo",
     "subtitle": "Skip or Buy è disponibile su iOS! Lascia i tuoi dati e ti avviseremo quando la versione Android sarà pronta.",

@@ -161,6 +161,24 @@
     "contactTitle": "9. お問い合わせ",
     "contactIntro": "本プライバシーポリシーに関するご質問は、以下の連絡先までお問い合わせください："
   },
+  "problemBridge": {
+    "title": "値札は嘘をつく。",
+    "titleAccent": "1回あたりコストが真実を語る。",
+    "subtitle": "2つの買い物。まったく違う2つの結末。タップして本当のコストを確認しよう。",
+    "goodLabel": "¥30,000の冬用ジャケット",
+    "goodDetail": "週3回、2年間着用。1回の購入で合計312回の着用。",
+    "goodCostPerUse": "¥96/回",
+    "goodComparison": "コーヒー1杯より安い",
+    "goodVerdict": "買いだ",
+    "badLabel": "¥7,000のキッチン用品",
+    "badDetail": "2回使って、そのまま棚の奥に放置。",
+    "badCostPerUse": "¥3,500/回",
+    "badComparison": "外食1回分より高い",
+    "badVerdict": "やめとけ",
+    "revealButton": "1回あたりコストを見る",
+    "closingLine": "高い方がお得だった。安い方がムダだった。Skip or Buyは、買う前に本当の数字を教えてくれる。",
+    "bootsTheory": "テリー・プラチェットはこう書いた：安い靴を買う人は、良い靴を買う人より生涯で多くのお金を使う。値札は、その先を見通せない人を罰する。"
+  },
   "comingSoon": {
     "title": "Android版 近日公開",
     "subtitle": "Skip or BuyはiOSで公開中！Android版のリリース時にお知らせします。ご連絡先をお知らせください。",

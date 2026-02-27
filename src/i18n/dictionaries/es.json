@@ -161,6 +161,24 @@
     "contactTitle": "9. Contacto",
     "contactIntro": "Si tienes alguna pregunta sobre esta política de privacidad, contáctanos en:"
   },
+  "problemBridge": {
+    "title": "El precio miente.",
+    "titleAccent": "El coste por uso dice la verdad.",
+    "subtitle": "Dos compras. Dos historias muy diferentes. Toca para descubrir lo que realmente cuestan.",
+    "goodLabel": "Chaqueta de invierno de 250 €",
+    "goodDetail": "Usada 3 veces por semana durante 2 años. Son 312 usos con una sola compra.",
+    "goodCostPerUse": "0,80 €/uso",
+    "goodComparison": "Menos que un café",
+    "goodVerdict": "VALE LA PENA",
+    "badLabel": "Gadget de cocina de 60 €",
+    "badDetail": "Usado dos veces y olvidado en el fondo de un cajón.",
+    "badCostPerUse": "30,00 €/uso",
+    "badComparison": "Más que una comida fuera",
+    "badVerdict": "DESCÁRTALO",
+    "revealButton": "Revelar coste por uso",
+    "closingLine": "El más caro fue la ganga. El más barato fue el desperdicio. Skip or Buy te muestra el número real antes de comprar.",
+    "bootsTheory": "Como escribió Terry Pratchett: quien compra botas baratas gasta más a lo largo de su vida que quien compra unas buenas. El precio castiga a quienes no ven más allá de la etiqueta."
+  },
   "comingSoon": {
     "title": "Android próximamente",
     "subtitle": "¡Skip or Buy ya está en iOS! Déjanos tus datos y te avisaremos cuando la versión para Android esté lista.",

@@ -161,6 +161,24 @@
     "contactTitle": "9. Contact Us",
     "contactIntro": "If you have any questions about this privacy policy, please contact us at:"
   },
+  "problemBridge": {
+    "title": "The price tag lies.",
+    "titleAccent": "The cost per use tells the truth.",
+    "subtitle": "Two purchases. Two very different stories. Tap to reveal what they really cost.",
+    "goodLabel": "£200 winter jacket",
+    "goodDetail": "Worn 3 times a week for 2 years. That is 312 wears from a single purchase.",
+    "goodCostPerUse": "£0.64/wear",
+    "goodComparison": "Less than a coffee",
+    "goodVerdict": "WORTH IT",
+    "badLabel": "£50 kitchen gadget",
+    "badDetail": "Used twice, then forgotten in the back of a cupboard.",
+    "badCostPerUse": "£25.00/use",
+    "badComparison": "More than a meal out",
+    "badVerdict": "SKIP IT",
+    "revealButton": "Reveal cost per use",
+    "closingLine": "The expensive one was the bargain. The cheap one was the waste. Skip or Buy shows you the real number before you buy.",
+    "bootsTheory": "As Terry Pratchett wrote: a man who buys cheap boots spends more over a lifetime than a man who buys good ones. The price tag punishes those who cannot see past it."
+  },
   "comingSoon": {
     "title": "Android Coming Soon",
     "subtitle": "Skip or Buy is live on iOS! Leave your details and we'll notify you when the Android version is ready.",
