@@ -89,11 +89,11 @@ Most other countries default to USD $4.99 or $5.99. Prices marked "May Adjust Au
 - Budget-conscious shoppers who want hard numbers, not feelings
 - Anyone tired of buying things that collect dust
 
-## Blog Posts (45 articles)
+## Blog Posts (60 articles)
 
 All blog posts are in `src/content/blog/` as markdown files. The custom markdown renderer is in `src/components/blog/BlogRenderer.tsx` and supports: headings, bold/italic, links, lists, blockquotes, inline code, horizontal rules, tables, and custom blocks (:::stats, :::takeaway, :::blogcta, :::calculator, :::checklist).
 
-### Cost Per Use (7 posts)
+### Cost Per Use (8 posts)
 - `what-is-cost-per-use.md` - What Is Cost Per Use? The Simple Formula That Changes How You Shop
 - `how-to-calculate-cost-per-use.md` - How to Calculate Cost Per Use for Anything: Step-by-Step
 - `cost-per-use-vs-price-tag.md` - Cost Per Use vs Price Tag: Why Cheap Isn't Always Better
@@ -101,8 +101,9 @@ All blog posts are in `src/content/blog/` as markdown files. The custom markdown
 - `cost-per-use-electronics.md` - Cost Per Use for Electronics: Is That Gadget Really Worth It?
 - `cost-per-wear-calculator.md` - Cost Per Wear: How to Calculate Whether That Outfit Is Worth It
 - `best-cost-per-use-items.md` - The Best Cost Per Use Items: 20 Purchases That Pay for Themselves
+- `price-per-wear-shoes.md` - Price Per Wear for Shoes: How to Know If Those Shoes Are Actually Worth It
 
-### Impulse Buying (7 posts)
+### Impulse Buying (11 posts)
 - `how-to-stop-impulse-buying.md` - How to Stop Impulse Buying: 12 Proven Strategies That Actually Work
 - `psychology-of-impulse-buying.md` - The Psychology of Impulse Buying: Why We Buy Things We Don't Need
 - `signs-you-are-impulse-buyer.md` - 10 Signs You Are an Impulse Buyer (and How to Fix It)
@@ -110,6 +111,10 @@ All blog posts are in `src/content/blog/` as markdown files. The custom markdown
 - `impulse-buying-vs-emotional-spending.md` - Impulse Buying vs Emotional Spending: Understanding the Difference
 - `social-media-impulse-buying.md` - How Social Media Fuels Impulse Buying (and How to Protect Your Wallet)
 - `72-hour-rule-impulse-buying.md` - The 72-Hour Rule: How a Simple Waiting Period Saves You Thousands
+- `spending-triggers-identify-control.md` - Spending Triggers: How to Identify Yours and Take Control of Your Money
+- `amazon-impulse-purchases-avoid.md` - How to Stop Buying Things You Don't Need on Amazon: 10 Practical Tips
+- `shopping-addiction-signs-help.md` - Shopping Addiction: 12 Warning Signs and How to Get Your Spending Under Control
+- `dopamine-shopping-retail-therapy.md` - Dopamine Shopping: Why Buying Feels So Good (and How to Break the Cycle)
 
 ### No Spend Challenges (6 posts)
 - `no-spend-january-guide.md` - No Spend January: The Complete Guide to Starting Your Year Right
@@ -119,36 +124,46 @@ All blog posts are in `src/content/blog/` as markdown files. The custom markdown
 - `30-day-no-spend-challenge.md` - 30-Day No Spend Challenge: Day-by-Day Guide
 - `lessons-from-no-spend-challenges.md` - What I Learned from 6 Months of No Spend Challenges
 
-### Budgeting & Saving (5 posts)
+### Budgeting & Saving (8 posts)
 - `50-30-20-budget-rule.md` - 50/30/20 Budget Rule: A Simple Framework for Your Money
 - `save-money-everyday-purchases.md` - How to Save Money on Everyday Purchases Without Feeling Deprived
 - `money-saving-challenges.md` - 15 Money-Saving Challenges to Try This Year
 - `sinking-fund-method.md` - The Sinking Fund Method: How to Budget for Big Purchases
 - `new-year-financial-reset.md` - New Year Financial Reset: Audit Your Spending and Start Fresh
+- `needs-vs-wants-how-to-tell.md` - Needs vs Wants: How to Tell the Difference and Make Better Spending Decisions
+- `lifestyle-creep-how-to-avoid.md` - Lifestyle Creep: What It Is and How to Stop Spending More as You Earn More
+- `debt-free-living-spend-less.md` - Debt-Free Living: How Spending Less on Things You Don't Use Accelerates Your Journey
 
-### Smart Shopping (6 posts)
+### Smart Shopping (9 posts)
 - `mindful-spending-guide.md` - Mindful Spending: How to Buy Less but Better
 - `how-much-spend-on-clothes.md` - How Much Should You Spend on Clothes? A Cost Per Use Approach
 - `how-to-compare-products.md` - How to Compare Products Before You Buy: A Smarter Framework
 - `sale-psychology-discounts.md` - Sale Psychology: Why 70% Off Doesn't Always Mean a Good Deal
 - `black-friday-survival-guide.md` - Black Friday Survival Guide: How to Spot Real Deals and Avoid Traps
 - `minimalist-shopping-list.md` - The Minimalist Shopping List: Buy Only What Adds Value
+- `capsule-wardrobe-cost-savings.md` - Capsule Wardrobe: How Much It Costs, How Much It Saves, and How to Build One
+- `fast-fashion-vs-quality-clothes.md` - Fast Fashion vs Quality Clothes: The Real Cost Comparison (With Numbers)
+- `save-money-on-groceries.md` - How to Save Money on Groceries: 20 Tips That Actually Work in 2026
 
-### Value Mindset & Boots Theory (4 posts)
+### Value Mindset & Boots Theory (6 posts)
 - `boots-theory-cost-per-use.md` - The Boots Theory: Why Buying Cheap Costs More (And How to Break the Cycle)
 - `reframe-price-to-cost-per-use.md` - Stop Thinking About Price, Start Thinking About Cost Per Use
 - `buy-it-for-life-cost-per-use.md` - Buy It for Life: 15 Items Where Spending More Saves You Thousands
 - `cost-per-use-mindset-shift.md` - The Cost Per Use Mindset: How One Simple Calculation Changes Everything
+- `buyers-remorse-how-to-avoid.md` - Buyer's Remorse: What It Is, Why It Happens, and 9 Ways to Avoid It
+- `one-in-one-out-rule-spending.md` - The One In, One Out Rule: A Simple System to Stop Accumulating Stuff You Don't Use
 
 ### In-Store Decision Making (3 posts)
 - `should-i-buy-this-checklist.md` - Should I Buy This? The 60-Second Checklist for Every Purchase
 - `in-store-impulse-buying-tricks.md` - 8 In-Store Tricks That Make You Impulse Buy (And How to Beat Them)
 - `is-it-worth-it-quiz.md` - Is It Worth It? How to Know in Under a Minute
 
-### Seasonal & Trending (3 posts)
+### Seasonal & Trending (5 posts)
 - `spring-wardrobe-cost-per-wear.md` - Spring Wardrobe Refresh: A Cost Per Wear Approach to Seasonal Shopping
 - `gym-equipment-cost-per-use.md` - Home Gym Equipment: Cost Per Use Breakdown (Is It Cheaper Than a Membership?)
 - `subscription-vs-buying-cost-per-use.md` - Subscribe or Buy? How to Calculate the Real Cost of Subscriptions vs Ownership
+- `kitchen-appliances-worth-it.md` - Are Expensive Kitchen Appliances Worth It? A Cost Per Use Breakdown
+- `baby-gear-cost-per-use.md` - Baby Gear: What's Actually Worth Buying New vs. Secondhand (Cost Per Use Guide)
 
 ### App Features (4 posts)
 - `introducing-skip-or-buy-app.md` - Introducing Skip or Buy: The App That Calculates the Real Cost of Everything

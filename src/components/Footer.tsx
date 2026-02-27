@@ -69,12 +69,27 @@ export default function Footer({
             &copy; {new Date().getFullYear()} Skip or Buy: Cost Per Use{" "}
             {dict.footer.copyright}
           </p>
-          <a
-            href="mailto:skiporbuyapp@gmail.com"
-            className="text-sm text-slate-400 transition hover:text-mint"
-          >
-            skiporbuyapp@gmail.com
-          </a>
+          <div className="flex items-center gap-6">
+            <a
+              href="https://techbasedirectory.com/product/skip-or-buy-cost-per-use?utm_source=featured_embed"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="opacity-80 transition hover:opacity-100"
+            >
+              <img
+                src="https://techbasedirectory.com/api/featured-embed"
+                alt="Skip or Buy: Cost Per Use | Techbasedirectory.com"
+                width={200}
+                height={60}
+              />
+            </a>
+            <a
+              href="mailto:skiporbuyapp@gmail.com"
+              className="text-sm text-slate-400 transition hover:text-mint"
+            >
+              skiporbuyapp@gmail.com
+            </a>
+          </div>
         </div>
       </div>
     </footer>
