@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     template: "%s | Skip or Buy: Cost Per Use",
   },
   description:
-    "Calculate the cost per use of anything before you buy. Compare products, get instant verdicts, and make smarter purchase decisions. One-time purchase — no subscription, no ads.",
+    "Calculate the cost per use of anything before you buy. Compare products, get instant verdicts, and make smarter purchase decisions. Free 3-day trial. No ads.",
   keywords: [
     "cost per use calculator",
     "price per use",
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Skip or Buy: Cost Per Use — Know the Real Cost Before You Buy",
     description:
-      "Calculate the cost per use of anything in seconds. 33 built-in categories with smart benchmarks. Compare products side by side. One-time purchase — no subscription, no ads.",
+      "Calculate the cost per use of anything in seconds. 33 built-in categories with smart benchmarks. Compare products side by side. Free 3-day trial. No ads.",
     url: "https://skiporbuyapp.com",
     siteName: "Skip or Buy: Cost Per Use",
     type: "website",
@@ -83,7 +83,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Skip or Buy: Cost Per Use — Cost Per Use Calculator",
     description:
-      "Calculate the cost per use of anything before you buy. Compare products, get instant verdicts. No subscription, no ads.",
+      "Calculate the cost per use of anything before you buy. Compare products, get instant verdicts. Free 3-day trial. No ads.",
     images: ["/images/logo.png"],
   },
   robots: {
@@ -123,9 +123,10 @@ export default async function LangLayout({
     operatingSystem: "iOS, Android",
     offers: {
       "@type": "Offer",
-      price: "4.99",
+      price: "0",
       priceCurrency: "GBP",
       availability: "https://schema.org/InStock",
+      description: "Free 3-day trial, then £3.99/week or £39.99/year",
     },
     aggregateRating: undefined,
     url: "https://skiporbuyapp.com",
@@ -154,10 +155,10 @@ export default async function LangLayout({
       },
       {
         "@type": "Question",
-        name: "Is Skip Or Buy a subscription?",
+        name: "How much does Skip Or Buy cost?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "No. Skip or Buy: Cost Per Use is a one-time purchase. You pay once and own it forever. There are no subscriptions, no ads, and no in-app purchases.",
+          text: "Skip or Buy is free to try for 3 days. After that, it costs £3.99/week or £39.99/year. Most users save more than that in their first week. You can cancel anytime.",
         },
       },
       {

@@ -76,8 +76,8 @@ If a $200 fitness gadget will not become "worth it" for 18 months based on your 
 On the other hand, if a $400 winter coat reaches its Worth It Date in just four months of regular wear, that is a strong signal that the investment makes sense, even though the upfront cost feels high.
 
 :::stats
-- value=4.99 prefix="£" label="One-time app price" format="currency"
-- value=0 label="Subscription fees" format="number"
+- value=3 label="Days free trial" format="number"
+- value=3.99 prefix="£" label="Per week after trial" format="currency"
 - value=0 label="Data collected" format="number"
 :::end
 

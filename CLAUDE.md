@@ -51,37 +51,21 @@ Most budgeting apps ask: "Can you afford this?" Skip Or Buy asks: "Is this worth
 - **8 Languages** — English, French, German, Spanish, Italian, Japanese, Simplified Chinese, Traditional Chinese.
 
 ### Pricing & Privacy
-- One-time purchase. No subscriptions. No in-app purchases. No ads. No tracking.
+- Subscription model: **£3.99/week** or **£39.99/year** with a **3-day free trial**.
+- No ads. No tracking. Cancel anytime.
 - Everything is stored locally on your device. Nothing is uploaded, shared, or tracked.
 
-### App Store Pricing by Region (source: `.claude/Current Price May Adjust Automatically.csv`)
-Key markets:
-| Region | Currency | Price |
-|--------|----------|-------|
-| United States | USD | $4.99 |
-| United Kingdom | GBP | £4.99 |
-| EU (Germany, France, Italy, Spain, etc.) | EUR | €5.99 |
-| Canada | CAD | C$6.99 |
-| Australia | AUD | A$7.99 |
-| Japan | JPY | ¥800 |
-| China mainland | CNY | ¥38 |
-| India | INR | ₹499 |
-| Brazil | BRL | R$29.90 |
-| South Korea | KRW | ₩6,600 |
-| Mexico | MXN | $99 |
-| Taiwan | TWD | NT$150 |
-| Switzerland | CHF | CHF 4.00 |
-| Sweden | SEK | 69 kr |
-| Norway | NOK | 59 kr |
-| Denmark | DKK | 39 kr |
-| New Zealand | NZD | NZ$9.99 |
-| Singapore | SGD | S$6.98 |
-| Hong Kong | HKD | HK$38 |
-| South Africa | ZAR | R99.99 |
-| Turkey | TRY | ₺249.99 |
-| Poland | PLN | 24.99 zł |
+### App Store Subscription Pricing (primary markets)
+| Region | Weekly | Yearly |
+|--------|--------|--------|
+| United Kingdom | £3.99/week | £39.99/year |
+| United States | $3.99/week | $39.99/year |
+| EU | €4.99/week | €49.99/year |
+| Japan | ¥600/week | ¥6,000/year |
+| China mainland | ¥28/week | ¥298/year |
+| Hong Kong | HK$32/week | HK$288/year |
 
-Most other countries default to USD $4.99 or $5.99. Prices marked "May Adjust Automatically: Y" can change with exchange rates. UK price (£4.99) is fixed (N).
+All plans include a 3-day free trial. Users can cancel anytime.
 
 ### Target Audience
 - Impulse buyers who want to make smarter decisions
@@ -89,7 +73,7 @@ Most other countries default to USD $4.99 or $5.99. Prices marked "May Adjust Au
 - Budget-conscious shoppers who want hard numbers, not feelings
 - Anyone tired of buying things that collect dust
 
-## Blog Posts (73 articles)
+## Blog Posts (78 articles)
 
 All blog posts are in `src/content/blog/` as markdown files. The custom markdown renderer is in `src/components/blog/BlogRenderer.tsx` and supports: headings, bold/italic, links, lists, blockquotes, inline code, horizontal rules, tables, and custom blocks (:::stats, :::takeaway, :::blogcta, :::calculator, :::checklist).
 
@@ -177,6 +161,13 @@ All blog posts are in `src/content/blog/` as markdown files. The custom markdown
 - `subscription-vs-buying-cost-per-use.md` - Subscribe or Buy? How to Calculate the Real Cost of Subscriptions vs Ownership
 - `kitchen-appliances-worth-it.md` - Are Expensive Kitchen Appliances Worth It? A Cost Per Use Breakdown
 - `baby-gear-cost-per-use.md` - Baby Gear: What's Actually Worth Buying New vs. Secondhand (Cost Per Use Guide)
+
+### Work Hours & Salary (5 posts)
+- `true-cost-in-work-hours.md` - How Many Hours Did You Work to Buy That? The Spending Hack That Changes Everything
+- `real-hourly-wage-calculator.md` - Your Real Hourly Wage Is Lower Than You Think: Here's How to Calculate It
+- `is-it-worth-your-time.md` - Is It Worth Your Time? How to Measure Every Purchase in Life Hours
+- `salary-to-spending-mindset.md` - The Salary-to-Spending Mindset: Why High Earners Still Feel Broke
+- `would-you-work-overtime-for-it.md` - Would You Work Overtime for It? The One Question That Stops Wasteful Spending
 
 ### App Features (4 posts)
 - `introducing-skip-or-buy-app.md` - Introducing Skip or Buy: The App That Calculates the Real Cost of Everything

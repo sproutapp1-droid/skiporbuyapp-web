@@ -105,15 +105,15 @@ We built Skip or Buy because we believe people deserve a **tool** that is as sop
 We do not tell you what to buy or what to skip. We give you the information to make that choice yourself, with confidence instead of regret.
 :::end
 
-## No Subscription. No Ads. No Tracking.
+## Try Free. No Ads. No Tracking.
 
-Here is what Skip or Buy does *not* do:
+Here is what makes Skip or Buy different:
 
-- **No subscription fees.** The app is completely free. Not "free with a premium tier." Not "free for 7 days." Free.
+- **Free 3-day trial.** Try every feature with no commitment. After that, it is just £3.99/week or £39.99/year -- and most users save far more than that with a single smarter purchase decision.
 - **No advertisements.** You will never see a banner ad, a sponsored product recommendation, or a "promoted deal." We do not take money from the companies whose products you are evaluating. That would be a conflict of interest, and we refuse to have one.
 - **No data tracking.** We do not collect your purchase history. We do not build a profile of your spending habits. We do not sell your data to third parties. Your financial decisions are none of our business -- literally.
 
-This is not a marketing gimmick. It is a fundamental design principle. An app that is supposed to help you resist manipulative commercial pressure cannot itself be funded by manipulative commercial pressure. The incentives have to be clean, or the tool cannot be trusted.
+The subscription keeps the app independent. We are funded by users, not advertisers -- which means the app always works for you, never against you. And you can cancel anytime.
 
 ## Your Privacy Is Not Negotiable
 

@@ -146,7 +146,7 @@ Every purchasing decision between two options is, at its core, a value compariso
 
 You do not need to agonize in store aisles. You do not need to read forty reviews searching for a consensus that does not exist. You do not need to flip a coin or go with your gut and hope for the best. You need two prices, two usage estimates, and ten seconds.
 
-The app costs a one-time payment of just £4.99. No subscription, no ads, no data collection. Your comparisons stay on your device, completely private and completely offline. It is a tool that works for you and answers to no one else.
+The app is free to try for 3 days, then just £3.99/week or £39.99/year. No ads, no data collection. Your comparisons stay on your device, completely private and completely offline. It is a tool that works for you and answers to no one else.
 
 :::takeaway cta
 Next time you are torn between two products, open Skip or Buy and let Compare Mode settle it with real numbers. Download the app and start making purchase decisions you will never second-guess.
