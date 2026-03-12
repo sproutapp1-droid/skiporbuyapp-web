@@ -2,21 +2,12 @@
 
 ## App Status
 
-The app is **live on iOS**. The App Store link is: `https://apps.apple.com/us/app/skip-or-buy-cost-per-use/id6759465475`
+The app is **live on iOS and Android**.
 
-**Android is NOT released yet.** The website maintains an **Android waitlist** (via `/api/interest` endpoint) for users interested in the Android version. The Android waitlist appears in:
-- The **Hero** and **CTA** sections (below the iOS App Store badge)
-- The **Header** (secondary "Android Waitlist" button with dropdown form)
-- The **ComingSoon** popup (auto-shows after 3s, Android-specific messaging)
+- **App Store:** `https://apps.apple.com/us/app/skip-or-buy-cost-per-use/id6759465475`
+- **Google Play:** `https://play.google.com/store/apps/details?id=com.skiporbuy.app`
 
-The `StoreBadges` component shows the iOS App Store badge (real link) and a dimmed Google Play "Coming Soon" badge. The `WaitlistForm` component still exists but is no longer used in Hero/CTA (they have inline Android waitlist forms instead).
-
-### On Android Release TODO
-- Hook up the **Google Play Store** link in `StoreBadges` (`src/components/StoreBadges.tsx`) — currently shows as "Coming Soon" with no link.
-- Remove or repurpose the Android waitlist forms in Hero, CTA, and Header.
-- Remove or repurpose the `ComingSoon` popup.
-- Update dictionary `comingSoon.*` and `hero.androidComingSoon` keys across all 8 language files.
-- The `WaitlistForm` component can be removed if no longer needed.
+The `StoreBadges` component (`src/components/StoreBadges.tsx`) shows both the App Store and Google Play badges with real links. The `/api/interest` endpoint still exists but is no longer referenced by any component (was used for the Android waitlist).
 
 ## App Description & Features
 
