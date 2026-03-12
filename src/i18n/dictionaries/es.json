@@ -14,9 +14,8 @@
     "appStore": "App Store",
     "appStoreLabel": "Disponible en el",
     "googlePlay": "Google Play",
-    "googlePlayLabel": "Próximamente",
-    "availableOnIos": "Disponible en iOS",
-    "androidComingSoon": "Android próximamente — recibe una notificación cuando lancemos"
+    "googlePlayLabel": "Disponible en",
+    "availableOnIos": "Disponible en iOS y Android"
   },
   "features": {
     "title": "Todo lo que necesitas para",
@@ -178,15 +177,5 @@
     "revealButton": "Revelar coste por uso",
     "closingLine": "El más caro fue la ganga. El más barato fue el desperdicio. Skip or Buy te muestra el número real antes de comprar.",
     "bootsTheory": "Como escribió Terry Pratchett: quien compra botas baratas gasta más a lo largo de su vida que quien compra unas buenas. El precio castiga a quienes no ven más allá de la etiqueta."
-  },
-  "comingSoon": {
-    "title": "Android próximamente",
-    "subtitle": "¡Skip or Buy ya está en iOS! Déjanos tus datos y te avisaremos cuando la versión para Android esté lista.",
-    "namePlaceholder": "Tu nombre",
-    "emailPlaceholder": "Tu correo electrónico",
-    "submit": "Notifícame",
-    "success": "¡Estás en la lista!",
-    "successDesc": "Te avisaremos cuando lancemos en Android.",
-    "dismiss": "Cerrar"
   }
 }

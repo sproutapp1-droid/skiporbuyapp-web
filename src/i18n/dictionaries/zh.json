@@ -14,9 +14,8 @@
     "appStore": "App Store",
     "appStoreLabel": "下载于",
     "googlePlay": "Google Play",
-    "googlePlayLabel": "即将上线",
-    "availableOnIos": "已在 iOS 上线",
-    "androidComingSoon": "Android 即将上线 — 获取发布通知"
+    "googlePlayLabel": "下载",
+    "availableOnIos": "已在 iOS 和 Android 上线"
   },
   "features": {
     "title": "更聪明地购物，",
@@ -178,15 +177,5 @@
     "revealButton": "查看每次使用成本",
     "closingLine": "贵的那个才是真正的实惠。便宜的那个才是真正的浪费。Skip or Buy 在你购买前，告诉你真实的数字。",
     "bootsTheory": "正如特里·普拉切特所写：买便宜靴子的人一辈子花的钱，比买好靴子的人还多。标价惩罚的是那些看不到标价背后真相的人。"
-  },
-  "comingSoon": {
-    "title": "Android 即将上线",
-    "subtitle": "Skip or Buy 已在 iOS 上线！留下您的信息，Android 版本准备好后我们会第一时间通知您。",
-    "namePlaceholder": "您的姓名",
-    "emailPlaceholder": "您的邮箱",
-    "submit": "通知我",
-    "success": "您已加入名单！",
-    "successDesc": "Android 版本上线时我们会通知您。",
-    "dismiss": "关闭"
   }
 }

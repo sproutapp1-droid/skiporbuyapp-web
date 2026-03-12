@@ -14,9 +14,8 @@
     "appStore": "App Store",
     "appStoreLabel": "立即於",
     "googlePlay": "Google Play",
-    "googlePlayLabel": "即將推出",
-    "availableOnIos": "已在 iOS 上架",
-    "androidComingSoon": "Android 即將推出 — 獲取發佈通知"
+    "googlePlayLabel": "下載",
+    "availableOnIos": "已在 iOS 及 Android 上架"
   },
   "features": {
     "title": "精明消費，",
@@ -178,15 +177,5 @@
     "revealButton": "查看每次使用成本",
     "closingLine": "貴嘅嗰個先至係真正嘅抵買。平嘅嗰個先至係真正嘅嘥錢。Skip or Buy 喺你買之前，話你知真正嘅數字。",
     "bootsTheory": "正如 Terry Pratchett 所寫：買平價靴嘅人一世花嘅錢，比買好靴嘅人更多。標價懲罰嘅係睇唔穿標價背後真相嘅人。"
-  },
-  "comingSoon": {
-    "title": "Android 即將推出",
-    "subtitle": "Skip or Buy 已在 iOS 上架！留下你的資料，Android 版本準備好後我們會通知你。",
-    "namePlaceholder": "你的姓名",
-    "emailPlaceholder": "你的電郵",
-    "submit": "通知我",
-    "success": "你已加入名單！",
-    "successDesc": "Android 版本推出時我們會通知你。",
-    "dismiss": "關閉"
   }
 }

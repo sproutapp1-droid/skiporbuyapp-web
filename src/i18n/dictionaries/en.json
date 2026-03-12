@@ -5,7 +5,7 @@
     "pricing": "Pricing",
     "download": "Download",
     "joinWaitlist": "Download",
-    "androidWaitlist": "Android Waitlist"
+    "androidWaitlist": "Get Android"
   },
   "hero": {
     "headline": "Know the real cost",
@@ -14,9 +14,8 @@
     "appStore": "App Store",
     "appStoreLabel": "Download on the",
     "googlePlay": "Google Play",
-    "googlePlayLabel": "Coming Soon",
-    "availableOnIos": "Available on iOS",
-    "androidComingSoon": "Android coming soon — get notified when we launch"
+    "googlePlayLabel": "Get it on",
+    "availableOnIos": "Available on iOS & Android"
   },
   "features": {
     "title": "Everything you need to",
@@ -178,15 +177,5 @@
     "revealButton": "Reveal cost per use",
     "closingLine": "The expensive one was the bargain. The cheap one was the waste. Skip or Buy shows you the real number before you buy.",
     "bootsTheory": "As Terry Pratchett wrote: a man who buys cheap boots spends more over a lifetime than a man who buys good ones. The price tag punishes those who cannot see past it."
-  },
-  "comingSoon": {
-    "title": "Android Coming Soon",
-    "subtitle": "Skip or Buy is live on iOS! Leave your details and we'll notify you when the Android version is ready.",
-    "namePlaceholder": "Your name",
-    "emailPlaceholder": "Your email",
-    "submit": "Notify Me",
-    "success": "You're on the list!",
-    "successDesc": "We'll let you know when the Android version launches.",
-    "dismiss": "Close"
   }
 }

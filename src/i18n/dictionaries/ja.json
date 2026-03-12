@@ -14,9 +14,8 @@
     "appStore": "App Store",
     "appStoreLabel": "ダウンロード（",
     "googlePlay": "Google Play",
-    "googlePlayLabel": "近日公開",
-    "availableOnIos": "iOSで利用可能",
-    "androidComingSoon": "Android版は近日公開 — リリース通知を受け取る"
+    "googlePlayLabel": "Google Playで",
+    "availableOnIos": "iOS & Androidで利用可能"
   },
   "features": {
     "title": "賢く買うための",
@@ -178,15 +177,5 @@
     "revealButton": "1回あたりコストを見る",
     "closingLine": "高い方がお得だった。安い方がムダだった。Skip or Buyは、買う前に本当の数字を教えてくれる。",
     "bootsTheory": "テリー・プラチェットはこう書いた：安い靴を買う人は、良い靴を買う人より生涯で多くのお金を使う。値札は、その先を見通せない人を罰する。"
-  },
-  "comingSoon": {
-    "title": "Android版 近日公開",
-    "subtitle": "Skip or BuyはiOSで公開中！Android版のリリース時にお知らせします。ご連絡先をお知らせください。",
-    "namePlaceholder": "お名前",
-    "emailPlaceholder": "メールアドレス",
-    "submit": "通知を受け取る",
-    "success": "登録完了！",
-    "successDesc": "Android版のリリース時にお知らせいたします。",
-    "dismiss": "閉じる"
   }
 }

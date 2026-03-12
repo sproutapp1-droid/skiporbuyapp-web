@@ -5,6 +5,9 @@ import type { Dictionary } from "@/i18n/getDictionary";
 const IOS_APP_STORE_URL =
   "https://apps.apple.com/us/app/skip-or-buy-cost-per-use/id6759465475";
 
+const GOOGLE_PLAY_URL =
+  "https://play.google.com/store/apps/details?id=com.skiporbuy.app";
+
 export default function StoreBadges({
   className = "",
   dict,
@@ -30,17 +33,20 @@ export default function StoreBadges({
           <div className="text-lg font-semibold leading-tight">{dict.hero.appStore}</div>
         </div>
       </a>
-      <div
-        className="inline-flex items-center gap-3 rounded-xl border border-white/10 bg-white/5 px-5 py-3 text-white/40 backdrop-blur-sm cursor-default"
+      <a
+        href={GOOGLE_PLAY_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group inline-flex items-center gap-3 rounded-xl border border-white/10 bg-white/5 px-5 py-3 text-white backdrop-blur-sm transition-all hover:border-mint/30 hover:bg-white/10 hover:shadow-lg hover:shadow-mint/5"
       >
-        <svg viewBox="0 0 24 24" className="h-7 w-7 fill-current">
+        <svg viewBox="0 0 24 24" className="h-7 w-7 fill-current transition-transform group-hover:scale-110">
           <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 01-.61-.92V2.734a1 1 0 01.609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.302 2.302a1 1 0 010 1.38l-2.302 2.302L15.396 13l2.302-2.492zM5.864 2.658L16.8 8.99l-2.302 2.302-8.635-8.635z" />
         </svg>
         <div className="text-left">
           <div className="text-[10px] leading-none opacity-60">{dict.hero.googlePlayLabel}</div>
           <div className="text-lg font-semibold leading-tight">{dict.hero.googlePlay}</div>
         </div>
-      </div>
+      </a>
     </div>
   );
 }
